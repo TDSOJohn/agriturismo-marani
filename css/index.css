@@ -1,0 +1,70 @@
+@import url(./fonts.css);
+
+#fixed-background {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: -2;
+}
+
+#center-text-no-background {
+    display: block;
+}
+
+.flex-container-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.flex-container-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.spacer-70 {
+    background-color: aqua;
+    height: 20%;
+    width: 100%;
+    display: block;
+}
+
+.title {
+    font-family: boldSansSerif;
+    font-weight: bold;
+    font-size: 48px;
+    margin: 0;
+    padding: 15px;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-black {
+    color: #000;
+}
+
+.subtitle-white {
+    font-family: boldSansSerif;
+    font-size: 28px;
+    color: #fff;
+    margin: 0;
+    padding: 15px;
+}
+
+.main-content {
+    background-color: #fff;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin: 0;
+}
+
+.main-content-paragraph {
+    font-family: boldSansSerif;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
