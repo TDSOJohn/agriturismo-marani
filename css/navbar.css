@@ -1,0 +1,20 @@
+@import url(./fonts.css);
+
+.navbar {
+    background-color: #fff;
+    margin: 0;
+    padding: 10px;
+}
+
+.navbar-item {
+    font-family: boldSansSerif;
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+    flex-basis: 14%;
+    text-align: center;
+}
+
+.navbar-item:hover {
+    color: #008800;
+}
