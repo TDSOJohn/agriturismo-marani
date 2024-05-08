@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Agriturismo Marani</title>
-    <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="common/css/flex-layout.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <script type="module" src="common/js/image-gallery.js"></script>
 </head>
 <body>
     <img src="./media/images/marani-drone-fhd.jpeg" id="fixed-background" alt="Agriturismo Marani seen from a drone">
@@ -31,23 +33,17 @@
         <p class="main-content-paragraph">Immersa nel verde dei Colli Berici, a pochi chilometri da Vicenza, questa abitazione è stata recentemente ristrutturata con cura ricavandone quattro stanze, tutte con bagno, e piacevoli spazi comuni.</p>
         <p class="main-content-paragraph">Vi si respira un’atmosfera familiare e serena, grazie anche all’attenzione riservata all’arredamento e ai particolari. La prima colazione e l’eventuale cena su prenotazione invitano alla conoscenza e alla degustazione di quanto prodotto dall’azienda agricola stessa.</p>
         <p class="main-content-paragraph">Punto di partenza per piacevoli escursioni sulle colline del Veneto, l’Agriturismo Marani permette di raggiungere rapidamente le bellissime Venezia, Verona e Padova, nonché di scoprire centri minori dall’incanto dimenticato.</p>
-        <ul class="flex-image-preview">
-            <li>
-                <img src="./media/images/marani-drone-2-small.jpeg"
-                     class="image-preview"
-                     alt="Agriturismo Marani seen from a drone">
-            </li>
-            <li>
-                <img src="./media/images/vigneto-small.jpg"
-                     class="image-preview"
-                     alt="Agriturismo Marani seen from a drone">
-            </li>
-            <li>
-                <img src="./media/images/marani-esterno.png"
-                     class="image-preview"
-                     alt="Agriturismo Marani seen from a drone">
-            </li>
-        </ul>
+        <div id="image-gallery">
+            <img src="media/images/marani-drone-2-small.jpeg"
+                 class="image-preview"
+                 alt="Agriturismo Marani seen from a drone">
+            <img src="media/images/vigneto-small.jpg"
+                 class="image-preview"
+                 alt="Agriturismo Marani seen from a drone">
+            <img src="media/images/marani-esterno.png"
+                 class="image-preview"
+                 alt="Agriturismo Marani seen from a drone">
+        </div>
     </div>
 </body>
 </html>
