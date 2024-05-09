@@ -1,21 +1,20 @@
 @import url(./fonts.css);
 
+body {
+    margin: 0;
+}
+
 #fixed-background {
-    width: 100%;
     position: fixed;
+    object-fit: cover;
+    width: 100%;
+    height: 600px;
     top: 0px;
     left: 0px;
     z-index: -2;
 }
 
 #center-text-no-background {
-    display: block;
-}
-
-.spacer-70 {
-    background-color: aqua;
-    height: 20%;
-    width: 100%;
     display: block;
 }
 
@@ -47,7 +46,6 @@
     background-color: #fff;
     padding-left: 15%;
     padding-right: 15%;
-    margin: 0;
 }
 
 .main-content-paragraph {
