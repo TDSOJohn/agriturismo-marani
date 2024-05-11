@@ -1,9 +1,5 @@
 @import url(./fonts.css);
 
-body {
-    margin: 0;
-}
-
 #fixed-background {
     position: fixed;
     object-fit: cover;
