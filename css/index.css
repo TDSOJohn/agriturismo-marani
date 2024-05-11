@@ -16,30 +16,33 @@ body {
 
 #center-text-no-background {
     display: block;
+    margin-top: 300px;
 }
 
 .title {
     font-family: boldSansSerif;
     font-weight: bold;
     font-size: 48px;
-    margin: 0;
-    padding: 15px;
+    margin: 8px;
+    padding: 8px;
+    display: inline-block;
 }
 
 .text-white {
     color: #fff;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .text-black {
     color: #000;
 }
 
-.subtitle-white {
+.subtitle {
     font-family: boldSansSerif;
     font-size: 28px;
-    color: #fff;
-    margin: 0;
-    padding: 15px;
+    margin: 8px;
+    padding: 8px;
+    display: inline-block;
 }
 
 .main-content {
@@ -57,4 +60,10 @@ body {
 
 .flex-image-preview > li {
     flex-basis: 300px;
+}
+
+@media screen and (max-width: 900px) {
+    .main-content {
+        padding: 5%;
+    }
 }
