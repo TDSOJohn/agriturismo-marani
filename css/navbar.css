@@ -1,19 +1,9 @@
 @import url(./fonts.css);
 
-.navbar {
-    background-color: #fff;
-}
-
 #mobile-hamburger {
     background-color: #fff;
-    margin-top: 100px;
 }
 
 .navbar-item {
     font-size: 20px;
-    color: #000;
-}
-
-.navbar-item:hover {
-    color: #008800;
 }
