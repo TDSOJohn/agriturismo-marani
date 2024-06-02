@@ -41,12 +41,6 @@
     display: inline-block;
 }
 
-.main-content {
-    background-color: #fff;
-    padding-left: 15%;
-    padding-right: 15%;
-}
-
 .main-content-paragraph {
     font-family: boldSansSerif;
     font-size: 16px;
@@ -59,7 +53,7 @@
 }
 
 @media screen and (max-width: 900px) {
-    .main-content {
-        padding: 5%;
+    .main-content-paragraph {
+        font-size: 20px;
     }
 }
