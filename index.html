@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Agriturismo Marani</title>
     <link rel="stylesheet" href="common/css/general.css">
     <link rel="stylesheet" href="common/css/colors.css">
@@ -10,7 +11,7 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/navbar.css">
     <script type="module" src="common/js/image-gallery.js"></script>
-    <script type="module" src="common/js/navbar.js"></script>
+    <script type="module" src="common/js/mobile-handler.js"></script>
 </head>
 <body>
     <img src="media/images/marani-drone-fhd.jpeg" id="fixed-background" alt="Agriturismo Marani seen from a drone">
@@ -41,21 +42,23 @@
         <a href="html/book_a_room.html" class="navbar-item">Prenotazione</a>
     </div>
     <div id="main-content">
-        <div class="title text-black">
-            Agriturismo Marani
+        <div class="main-section">
+            <h1 class="title text-white">
+                Agriturismo Marani
+            </h1>
+            <p class="main-content-paragraph">Immersa nel verde dei Colli Berici, a pochi chilometri da Vicenza, questa abitazione è stata recentemente ristrutturata con cura ricavandone quattro stanze, tutte con bagno, e piacevoli spazi comuni.</p>
+            <p class="main-content-paragraph">Vi si respira un’atmosfera familiare e serena, grazie anche all’attenzione riservata all’arredamento e ai particolari. La prima colazione e l’eventuale cena su prenotazione invitano alla conoscenza e alla degustazione dei prodotti dell’azienda e del territorio.</p>
+            <p class="main-content-paragraph">La sua posizione favorisce piacevoli escursioni sulle colline venete, permette di raggiungere le bellissime venezia, Verona e Padova e di scoprire centri minori dall'incanto dimenticato.</p>
         </div>
-        <p class="main-content-paragraph">Immersa nel verde dei Colli Berici, a pochi chilometri da Vicenza, questa abitazione è stata recentemente ristrutturata con cura ricavandone quattro stanze, tutte con bagno, e piacevoli spazi comuni.</p>
-        <p class="main-content-paragraph">Vi si respira un’atmosfera familiare e serena, grazie anche all’attenzione riservata all’arredamento e ai particolari. La prima colazione e l’eventuale cena su prenotazione invitano alla conoscenza e alla degustazione dei prodotti dell’azienda e del territorio.</p>
-        <p class="main-content-paragraph">La sua posizione favorisce piacevoli escursioni sulle colline venete, permette di raggiungere le bellissime venezia, Verona e Padova e di scoprire centri minori dall'incanto dimenticato.</p>
         <div id="image-gallery" class="flex-image-preview">
             <img src="media/images/marani-drone-2-small.jpeg"
-                 class="image-preview ip50"
+                 class="image-preview w-50"
                  alt="Agriturismo Marani seen from a drone">
             <img src="media/images/vigneto-small.jpg"
-                 class="image-preview ip50"
+                 class="image-preview w-50"
                  alt="Agriturismo Marani seen from a drone">
             <img src="media/images/marani-esterno.png"
-                 class="image-preview ip50"
+                 class="image-preview w-50"
                  alt="Agriturismo Marani seen from a drone">
         </div>
     </div>
