@@ -6,12 +6,11 @@
 }
 
 .title {
-    font-family: boldSansSerif;
+    font-family: boldSansSerif, serif;
     font-weight: bold;
     font-size: 48px;
     margin: 8px;
     padding: 8px;
-    display: inline-block;
 }
 
 .text-white {
@@ -28,22 +27,8 @@
     font-size: 28px;
     margin: 8px;
     padding: 8px;
-    display: inline-block;
-}
-
-.main-content-paragraph {
-    font-family: boldSansSerif;
-    font-size: 16px;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 .flex-image-preview > li {
     flex-basis: 300px;
-}
-
-@media screen and (max-width: 900px) {
-    .main-content-paragraph {
-        font-size: 20px;
-    }
 }
